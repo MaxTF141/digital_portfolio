@@ -4,6 +4,8 @@
   <About />
   <Resume />
   <Skills />
+  <Projects />
+  <Testimonials />
 </template>
 
 <script>
@@ -12,13 +14,18 @@ import Home from '@/components/HomeComponent.vue'
 import About from '@/components/AboutComponent.vue'
 import Resume from '@/components/ResumeComponent.vue'
 import Skills from '@/components/SkillsComponent.vue'
+import Testimonials from '@/components/TestimonialsComponent.vue'
+import Projects from '@/components/ProjectsComponent.vue'
+
 export default {
   components: {
     Navbar,
     Home,
     About,
     Resume,
-    Skills
+    Skills,
+    Testimonials,
+    Projects
   }
 }
 </script>

@@ -43,6 +43,6 @@ export default {
   nav {
   width: 90vw;
   border-radius: 27px;
-  background-color: #ffffff75;
+  background-color: #ffffffd0;
   }
 </style>

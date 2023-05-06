@@ -1,5 +1,5 @@
 <template>
-    <section id="resume">
+    <section id="resume" class="p-5">
         <h1>RESUME</h1>
         <div class="timeline">
             <div class="timeline-badge right">
@@ -117,7 +117,7 @@ export default {
 .content {
     padding: 20px 30px;
     position: relative;
-    border-radius: 8px;
+    border-radius: 20px;
     background-color: #F4E9EC;
 }
 
