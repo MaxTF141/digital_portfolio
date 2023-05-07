@@ -119,7 +119,7 @@ h4 {
         font-size: 3em;
         text-align: center;
     }
-    p{
+    h4{
         text-align: center;
     }
 }

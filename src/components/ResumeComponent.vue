@@ -143,7 +143,7 @@ h1 {
   text-align: right;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     h1{
         font-size: 3em;
         text-align: center;

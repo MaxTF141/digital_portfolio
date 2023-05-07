@@ -1,9 +1,9 @@
 <template>
-    <section id="projects" class="p-5">
+    <section id="projects" class="p-md-5 p-2 py-5">
         <div class="container-fluid">
             <h1>Projects I've Built</h1>
-            <div class="projects mx-auto">
-                <img class="d-md-flex d-none justify-content-end" src="../assets/booking.png" alt="">
+            <div class="projects mx-auto justify-content-center">
+                <img class="d-lg-flex d-block justify-content-end" src="../assets/booking.png" alt="">
                 <div class="project-content d-flex flex-column align-items-end">
                     <h4 class="text-end py-3">Booking Secure</h4>
                     <div class="summary">
@@ -27,6 +27,10 @@ export default {
 }
 </script>
 <style scoped>
+#projects {
+    overflow-x: hidden;
+}
+
 h1 {
   font-family: 'Ubuntu Mono', monospace;
   color: #e0e0e0;
@@ -38,7 +42,7 @@ h4 {
   font-size: 20px;
 }
 
-p {
+p{
     font-family: 'Ubuntu Mono', monospace;
     color: #353535;
     font-size: 20px;
@@ -52,7 +56,7 @@ p {
 }
 
 .summary {
-    width: 100%;
+    /* width: 100%; */
     background-color: #F4E9EC;
     border-radius: 20px;
     box-shadow: 2px 2px 3px #ccc;
@@ -63,8 +67,9 @@ p {
 
 img {
     box-shadow: 2px 2px 3px #ccc;
-    width: 40vw;
     grid-column: 1 / 8;
+    width: 100%;
+    height: 100%;
 }
 
 img, .project-content {
@@ -75,16 +80,50 @@ img, .project-content {
     font-size: 2rem;
 }
 
+@media screen and (max-width: 1456px) and (min-width: 1024px) {
+    .project-content {
+    grid-column: 6 / 15;
+    }
+    img {
+    grid-column: 1 / 9;
+    }
+}
 
 @media screen and (max-width: 1024px) {
-    .project-content{
+    .projects {
         width: 90vw;
-        background-image: url('../assets/booking.png');
-        background-repeat: no-repeat;
-        background-size: cover;
+        position: relative;
+        display: block;
+    }
+
+    .projects::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000a8; 
+    }
+
+    img {
+        display: block;
+        width: auto;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1; /* Put the image behind the content */
+    }
+    .project-content {
+        position: relative;
+        z-index: 2; /* Make sure the content is on top of the layer */
     }
     .summary {
         background-color: #00000000;
+        box-shadow: none;
     }
     img {
         display: none;
@@ -95,6 +134,13 @@ img, .project-content {
     }
     h4{
         text-align: center;
+        color: #ff0044;
+    }
+    p {
+        color: #ffff;
+    }
+    .icon {
+    font-size: 4rem;
     }
 
 }

@@ -1,5 +1,5 @@
 <template>
-    <section id="testimonials" class="p-5">
+    <section id="testimonials" class="p-md-5 p-2 py-5">
         <div class="container-fluid">
             <!-- <h1>Testimonials</h1> -->
             <h4>What co-workers and lectures say about me.</h4>
@@ -13,7 +13,17 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="test mx-auto d-flex flex-column justify-content-center align-items-center">
+                                <div class="grid-wrapper">
+                                    <div class="test">
+                                        <div class="testimonial">
+                                            <Icon icon="ooui:quotes-ltr" class="icon" color="#F4E9EC" />
+                                            <p class="p-1">Maxwill is a guy who becomes very passionate towards something when he becomes interested in it. He is very friendly and open to help anyone that has difficulty with any topic. He shows amazing creativity and problem-solving skills already. I recommend him to any company.</p>
+                                            <Icon icon="ooui:quotes-ltr" class="icon d-flex ms-auto" color="#F4E9EC" :rotate="2" />
+                                        </div>
+                                        <img class="testimonial-img" src="../assets/Brandon.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- <div class="test mx-auto d-flex flex-column justify-content-center align-items-center">
                                     <div class="testimonial">
                                         <Icon icon="ooui:quotes-ltr" class="icon" color="#F4E9EC" />
                                         <p class="p-1">Maxwill is a guy who becomes very passionate towards something when he becomes interested in it. He is very friendly and open to help anyone that has difficulty with any topic. He shows amazing creativity and problem-solving skills already. I recommend him to any company.</p>
@@ -22,7 +32,7 @@
                                     <div class="test1">
                                         <img class="testimonial-img" src="../assets/Brandon.png" alt="">
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="carousel-item">
                                 <div class="test mx-auto d-flex flex-column justify-content-end align-items-center">
@@ -122,6 +132,29 @@ h4 {
   font-size: 20px;
 }
 .test {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.test {
+    grid-row: 2 / 7;
+}
+img {
+    /* width: 100%; */
+    height: 100%;
+    grid-row: 1 / 7;
+    grid-column: 8 / 10;
+}
+.testimonial {
+    position: relative;
+    z-index: 2;
+    grid-row: 3 / 6;
+    grid-column: 2 / 9;
+    height: fit-content;
+    background-color: #ff0044;
+}
+/* .test {
     width: 80vw;
     height: 60vh;
     background-color: #ffffff;
@@ -132,28 +165,23 @@ h4 {
     height: 75%;
     width: 100%;
     background-color: #F4E9EC;
-    /* height: 474.01px; */
 }
 .testimonial-img {
     position: absolute;
     height: 110%;
     bottom: 0;
     right: 0;
-    /* width: 405.4px;
-    height: 515px; */
 }
 .testimonial {
-    /* position: absolute; */
-    /* top: ; */
     left: 10%;
     width: 70%;
     height: fit-content;
     z-index: 1;
     background-color: #ff0044;
-}
+} */
 .icon {
     padding: 0px;
-    font-size: 5rem; 
+    font-size: 2rem; 
 }
 
 p {
@@ -169,7 +197,12 @@ p {
 .carousel-control-prev-icon {
     background: url('https://api.iconify.design/material-symbols/arrow-back-ios-rounded.svg?color=%23f04&width=100&height=100') no-repeat center center / contain;
 }
-@media screen and (min-width: 1024px) {
-    
+@media screen and (max-width: 1034px) {
+    .testimonial {
+        grid-column: 2 / 10;
+    }
+    img {
+        grid-column: 8 / 10;
+    }
 }
 </style>
