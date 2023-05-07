@@ -1,5 +1,5 @@
 <template>
-    <section id="resume" class="p-5">
+    <section id="resume" class="p-md-5 p-1 py-5">
         <h1>RESUME</h1>
         <div class="timeline">
             <div class="timeline-badge right">
@@ -47,7 +47,7 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
 .timeline {
     position: relative;
     max-width: 1200px;
@@ -126,11 +126,10 @@ export default {
   color: #000000;
   font-size: 18px;
 }
-#resume h1 {
+h1 {
   font-family: 'Ubuntu Mono', monospace;
   color: #e0e0e0;
-  font-size: 11rem;
-
+  font-size: 5em;
 }
 #resume h4 {
   font-family: 'Chivo Mono', monospace;
@@ -144,5 +143,31 @@ export default {
   text-align: right;
 }
 
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 3em;
+        text-align: center;
+    }
+    .timeline::after {
+        left: 38px;
+    }
 
+    .timeline-badge {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .left::after,
+    .right::after {
+        left: 25px;
+    }
+
+    .right {
+        left: 0%;
+    }
+    .left::before {
+        display: none;
+    }
+}
 </style>

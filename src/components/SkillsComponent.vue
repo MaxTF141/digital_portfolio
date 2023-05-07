@@ -1,42 +1,58 @@
 <template>
-    <section id="skills" class="p-5">
+    <section id="skills" class="p-md-5 p-2 py-5">
+        <h1>Skills And Tools </h1>
+        <h4>Below is the skills and tools I use to bring my ideas to life.</h4>
         <div class="container-fluid">
-            <h1>Skills And Tools </h1>
-            <h4>Below is the skills and tools I use to bring my ideas to life.</h4>
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills">
                         <Icon icon="fontisto:mysql" class="icon" color="white" />
                         <p>MySql</p>
                     </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills">
                         <Icon icon="bi:github" class="icon" color="white" />
                         <p>Github</p>
                     </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills">
                         <Icon icon="icomoon-free:html-five" class="icon" color="white" />
                         <p>HTML5</p>
                     </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills">
                         <Icon icon="akar-icons:javascript-fill" class="icon" color="white" />
                         <p>Javascript</p>
                     </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills">
                         <Icon icon="uiw:css3" class="icon" color="white" />
                         <p>CSS3</p>
                     </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills">
                         <Icon icon="fa6-brands:bootstrap" class="icon" color="white" />
                         <p>Bootstrap</p>
                     </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills">
                         <Icon icon="fa-brands:node-js" class="icon" color="white" />
                         <p>Node.js</p>
                     </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills">
                         <Icon icon="akar-icons:vue-fill" class="icon" color="white" />
                         <p>Vue.js</p>
                     </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills">
                         <Icon icon="mdi:vs-code" class="icon" color="white" />
                         <p>VS Code</p>
@@ -66,7 +82,7 @@ export default {
 #skills {
     background-color: #ff0044;
 }
-#skills h1 {
+h1 {
   font-family: 'Ubuntu Mono', monospace;
   color: #e0e0e0;
   font-size: 5em;
@@ -96,5 +112,15 @@ h4 {
   font-family: 'Chivo Mono', monospace;
   color: #000000;
   font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    h1{
+        font-size: 3em;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
 }
 </style>

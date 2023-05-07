@@ -1,7 +1,7 @@
 <template>
     <section id="testimonials" class="p-5">
         <div class="container-fluid">
-            <h1>Testimonials</h1>
+            <!-- <h1>Testimonials</h1> -->
             <h4>What co-workers and lectures say about me.</h4>
             <div class="row">
                 <div class="col-12">
@@ -13,10 +13,10 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="test mx-auto d-flex flex-column justify-content-end align-items-center">
+                                <div class="test mx-auto d-flex flex-column justify-content-center align-items-center">
                                     <div class="testimonial">
                                         <Icon icon="ooui:quotes-ltr" class="icon" color="#F4E9EC" />
-                                        <p>Maxwill is a guy who becomes very passionate towards something when he becomes interested in it. He is very friendly and open to help anyone that has difficulty with any topic. He shows amazing creativity and problem-solving skills already. I recommend him to any company.</p>
+                                        <p class="p-1">Maxwill is a guy who becomes very passionate towards something when he becomes interested in it. He is very friendly and open to help anyone that has difficulty with any topic. He shows amazing creativity and problem-solving skills already. I recommend him to any company.</p>
                                         <Icon icon="ooui:quotes-ltr" class="icon d-flex ms-auto" color="#F4E9EC" :rotate="2" />
                                     </div>
                                     <div class="test1">
@@ -28,7 +28,7 @@
                                 <div class="test mx-auto d-flex flex-column justify-content-end align-items-center">
                                     <div class="testimonial">
                                         <Icon icon="ooui:quotes-ltr" class="icon" color="#F4E9EC" />
-                                        <p>Maxwill is a guy who becomes very passionate towards something when he becomes interested in it. He is very friendly and open to help anyone that has difficulty with any topic. He shows amazing creativity and problem-solving skills already. I recommend him to any company.</p>
+                                        <p class="p-1">Maxwill is a guy who becomes very passionate towards something when he becomes interested in it. He is very friendly and open to help anyone that has difficulty with any topic. He shows amazing creativity and problem-solving skills already. I recommend him to any company.</p>
                                         <Icon icon="ooui:quotes-ltr" class="icon d-flex ms-auto" color="#F4E9EC" :rotate="2" />
                                     </div>
                                     <div class="test1">
@@ -40,7 +40,7 @@
                                 <div class="test mx-auto d-flex flex-column justify-content-end align-items-center">
                                     <div class="testimonial">
                                         <Icon icon="ooui:quotes-ltr" class="icon" color="#F4E9EC" />
-                                        <p>Maxwill is a very creative, goal-getter, and well-behaved student. He does enjoy working with his classmates and works well on his project. He has gained knowledge of web development, including Bootstrap 5. I am very delighted to see him build more awesome projects, and most importantly, companies will love to hire such a developer.</p>
+                                        <p class="p-1">Maxwill is a very creative, goal-getter, and well-behaved student. He does enjoy working with his classmates and works well on his project. He has gained knowledge of web development, including Bootstrap 5. I am very delighted to see him build more awesome projects, and most importantly, companies will love to hire such a developer.</p>
                                         <Icon icon="ooui:quotes-ltr" class="icon d-flex ms-auto" color="#F4E9EC" :rotate="2" />
                                     </div>
                                     <div class="test1">
@@ -52,7 +52,7 @@
                                 <div class="test mx-auto d-flex flex-column justify-content-end align-items-center">
                                     <div class="testimonial">
                                         <Icon icon="ooui:quotes-ltr" class="icon" color="#F4E9EC" />
-                                        <p>Maxwill is a hardworking, results orientated team player. He has a keen eye for detail and always does the utmost to achieve a goal. I respect and admire this approach to problem solving as he has shown it's useful for technical as well as everyday problems. He's an inexpensive asset to any company out there looking to hire!</p>
+                                        <p class="p-1">Maxwill is a hardworking, results orientated team player. He has a keen eye for detail and always does the utmost to achieve a goal. I respect and admire this approach to problem solving as he has shown it's useful for technical as well as everyday problems. He's an inexpensive asset to any company out there looking to hire!</p>
                                         <Icon icon="ooui:quotes-ltr" class="icon d-flex ms-auto" color="#F4E9EC" :rotate="2" />
                                     </div>
                                     <div class="test1">
@@ -64,7 +64,7 @@
                                 <div class="test mx-auto d-flex flex-column justify-content-end align-items-center">
                                     <div class="testimonial">
                                         <Icon icon="ooui:quotes-ltr" class="icon" color="#F4E9EC" />
-                                        <p>Maxwill is an exceptionally hard worker and always making time to assist anyone who is in need. Also goes the extra-mile when doing anything that has to be done. He is also very confident in his capabilities and never fails to get the Job done.</p>
+                                        <p class="p-1">Maxwill is an exceptionally hard worker and always making time to assist anyone who is in need. Also goes the extra-mile when doing anything that has to be done. He is also very confident in his capabilities and never fails to get the Job done.</p>
                                         <Icon icon="ooui:quotes-ltr" class="icon d-flex ms-auto" color="#F4E9EC" :rotate="2" />
                                     </div>
                                     <div class="test1">
@@ -76,7 +76,7 @@
                                 <div class="test mx-auto d-flex flex-column justify-content-end align-items-center">
                                     <div class="testimonial">
                                         <Icon icon="ooui:quotes-ltr" class="icon" color="#F4E9EC" />
-                                        <p>Maxwill seems to be very passionate in web development because he puts in 100% in every project does. He is always willing to help and goes the extra mile for students who are struggling on their projects.</p>
+                                        <p class="p-1">Maxwill seems to be very passionate in web development because he puts in 100% in every project does. He is always willing to help and goes the extra mile for students who are struggling on their projects.</p>
                                         <Icon icon="ooui:quotes-ltr" class="icon d-flex ms-auto" color="#F4E9EC" :rotate="2" />
                                     </div>
                                     <div class="test1">
@@ -122,7 +122,7 @@ h4 {
   font-size: 20px;
 }
 .test {
-    width: 60vw;
+    width: 80vw;
     height: 60vh;
     background-color: #ffffff;
     position: relative;
@@ -134,12 +134,6 @@ h4 {
     background-color: #F4E9EC;
     /* height: 474.01px; */
 }
-.carousel-control-next-icon {
-    background: url('https://api.iconify.design/material-symbols/arrow-forward-ios-rounded.svg?color=%23f04') no-repeat center center / contain;
-}
-.carousel-control-prev-icon {
-    background: url('https://api.iconify.design/material-symbols/arrow-back-ios-rounded.svg?color=%23f04&width=100&height=100') no-repeat center center / contain;
-}
 .testimonial-img {
     position: absolute;
     height: 110%;
@@ -149,23 +143,33 @@ h4 {
     height: 515px; */
 }
 .testimonial {
-    position: absolute;
-    top: 40%;
+    /* position: absolute; */
+    /* top: ; */
     left: 10%;
-    width: 60%;
+    width: 70%;
+    height: fit-content;
     z-index: 1;
     background-color: #ff0044;
 }
 .icon {
-    padding: 20px;
-    padding-bottom: 0px;
+    padding: 0px;
     font-size: 5rem; 
 }
 
 p {
     font-family: 'Ubuntu Mono', monospace;
     color: #ffff;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
+}
+
+.carousel-control-next-icon {
+    background: url('https://api.iconify.design/material-symbols/arrow-forward-ios-rounded.svg?color=%23f04') no-repeat center center / contain;
+}
+.carousel-control-prev-icon {
+    background: url('https://api.iconify.design/material-symbols/arrow-back-ios-rounded.svg?color=%23f04&width=100&height=100') no-repeat center center / contain;
+}
+@media screen and (min-width: 1024px) {
+    
 }
 </style>

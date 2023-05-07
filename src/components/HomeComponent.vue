@@ -1,6 +1,6 @@
 <template>
-      <section id="home" class="d-flex justify-content-center align-items-center flex-column">
-    <div class="profile">
+  <section id="home" class="d-flex justify-content-center align-items-center flex-column">
+    <div class="profile m-3">
       <h1 class="text-center">hi! I'm a <span>Web Developer</span></h1>
       <h3>Pushing the boundaries of my potential.I also build stuff.</h3>
       <div class="profile-img d-flex justify-content-center">
@@ -14,25 +14,24 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
 #home {
   background-color: white;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
-  /* position: absolute; */
   left: 0px;
   top: 0px;
 
 }
 
-.profile img {
+img {
   width: 8rem;
 }
-.profile h1{
+h1{
   font-family: 'Chivo Mono', monospace;
   font-weight: 200;
 }
-.profile h3 {
+h3 {
   font-family: 'Chivo Mono', monospace;
   font-weight: 100;
   color: #a7a7a7;
@@ -42,4 +41,9 @@ export default {
   color: #FF0044;
 }
 
+/* @media screen and(1024px) {
+  .profile{
+    
+  }
+} */
 </style>

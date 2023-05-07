@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <h1>Projects I've Built</h1>
             <div class="projects mx-auto">
-                <img class="d-flex justify-content-end" src="../assets/booking.png" alt="">
+                <img class="d-md-flex d-none justify-content-end" src="../assets/booking.png" alt="">
                 <div class="project-content d-flex flex-column align-items-end">
                     <h4 class="text-end py-3">Booking Secure</h4>
                     <div class="summary">
@@ -76,10 +76,27 @@ img, .project-content {
 }
 
 
-@media screen and (min-width: 1024px) {
-    .project-content {
-    grid-column: 7 / 15;
+@media screen and (max-width: 1024px) {
+    .project-content{
+        width: 90vw;
+        background-image: url('../assets/booking.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .summary {
+        background-color: #00000000;
+    }
+    img {
+        display: none;
+    }
+    h1{
+        font-size: 3em;
+        text-align: center;
+    }
+    h4{
+        text-align: center;
     }
 
 }
+
 </style>

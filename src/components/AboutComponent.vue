@@ -4,10 +4,10 @@
           <img src="https://i.postimg.cc/RZZvjtqk/Group-16-1-1.png" alt="">
         </div>
     </section>
-    <section id="about" class="d-flex justify-content-center align-items-center flex-column p-4">
-        <div class="about-me-text">
+    <section id="about" class="d-flex justify-content-center align-items-center flex-column p-md-4 p-1">
+        <div class="about-me-text p-2">
         <h1 class="text-center">My name is Maxwill. Nice to meet you.</h1>
-        <p class="text-center paragraphs">I'm from Kuils River, Cape Town and I was born and grew up in Wesbank. Since I was a little kid I always loved creating things. I love working out, playing chess and Sudoku.</p>
+        <p class="text-center paragraphs mx-0">I'm from Kuils River, Cape Town and I was born and grew up in Wesbank. Since I was a little kid I always loved creating things. I love working out, playing chess and Sudoku.</p>
         <p class="text-center paragraphs">I always loved playing around with computers. Love solving technical problems. It was always a goal of mine to build a career in the tech industry. I love coding and can't wait to create projects of my own.</p>
         </div>
         <div class="extra-info">
@@ -23,7 +23,7 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
 .devices-img img{
   width: 18rem;
 }
@@ -35,9 +35,9 @@ export default {
   background-color: #FF0044;
 }
 .about-me-text {
-  width: 50vw;
+  width: 100vw;
 }
-#about p {
+p {
   font-family: 'Ubuntu Mono', monospace;
   color: #d7d7d7;
   font-size: 18px;
@@ -50,6 +50,12 @@ export default {
 
 #about span {
   color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-me-text {
+  width: 50vw;
+}
 }
 
 </style>
