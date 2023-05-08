@@ -3,13 +3,13 @@
         <h1>RESUME</h1>
         <div class="timeline">
             <div class="timeline-badge right">
-                <div class="content px-2">
+                <div class="content px-2" data-aos="fade-left">
                     <h4 class="">KUILS RIVER TECHNICAL HIGH SCHOOL</h4>
                     <p class="">I graduated from high school with a diploma.</p>
                     <h5 class="">2015 - 2019</h5>
                 </div>
             </div>
-            <div class="timeline-badge left">
+            <div class="timeline-badge left" data-aos="fade-right">
                 <div class="content px-2">
                     <h4 class="">DE JAGERS UITRUSTERS</h4>
                     <p class="">De Jagers is a retail store. I worked there for about two years as a temporary worker since I finished high school.</p>
@@ -18,21 +18,21 @@
             </div>
         </div>
         <div class="timeline">
-            <div class="timeline-badge right">
+            <div class="timeline-badge right" data-aos="fade-left" data-aos-easing="ease-in-out">
                 <div class="content px-2">
                     <h4 class="">iCollege (Bellville Campus)</h4>
                     <p class="">I attended this college after I took a gap year after school. I studied IT Tech Support NQF4 during that year.</p>
                     <h5 class="">2015 - 2019</h5>
                 </div>
             </div>
-            <div class="timeline-badge left">
+            <div class="timeline-badge left" data-aos="fade-right">
                 <div class="content px-2">
                     <h4 class="">LIFE CHOICES CODING </h4>
                     <p class="">So far it's been a great experience here at Life Choices. I began to love coding more and more. And I have learnt a lot and It's just not coding.I love how they implement everything that you'll need after you done with the Course</p>
                     <h5 class="">2015 - 2019</h5>
                 </div>
             </div>
-            <div class="timeline-badge right">
+            <div class="timeline-badge right" data-aos="fade-left">
                 <div class="content px-2">
                     <h4 class="">LIFE CHOICES CODING </h4>
                     <p class="">So far it's been a great experience here at Life Choices. I began to love coding more and more. And I have learnt a lot and It's just not coding.I love how they implement everything that you'll need after you done with the Course</p>
@@ -52,6 +52,7 @@ export default {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 .timeline::after {
     content: '';

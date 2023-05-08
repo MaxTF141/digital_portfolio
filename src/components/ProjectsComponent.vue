@@ -3,8 +3,34 @@
         <div class="container-fluid">
             <h1>Projects I've Built</h1>
             <div class="projects mx-auto justify-content-center">
-                <img class="d-lg-flex d-block justify-content-end" src="../assets/booking.png" alt="">
-                <div class="project-content d-flex flex-column align-items-end">
+                <img class="d-lg-flex d-block justify-content-end" src="../assets/booking.png" alt="" data-aos="fade-right">
+                <div class="project-content d-flex flex-column align-items-end" data-aos="fade-left">
+                    <h4 class="text-end py-3">Booking Secure</h4>
+                    <div class="summary">
+                        <p>I designed and developed this booking website for my Capstone Project, which happens to be my first full-stack project. Through this project, I was able to enhance my design thinking and time management skills. It really helped me grow as a developer</p>
+                    </div>
+                    <div class="links d-flex gap-2 py-2 ">
+                        <Icon icon="iconoir:github" class="icon" color="#f04" />
+                        <Icon icon="mdi:link-variant" class="icon" color="#f04" />
+                    </div>
+                </div>
+            </div>
+            <div class="projects mx-auto justify-content-center">
+                <img class="img-right d-lg-flex d-block justify-content-start" src="../assets/booking.png" alt="" data-aos="fade-left">
+                <div class="project-content-left d-flex flex-column align-items-start" data-aos="fade-right">
+                    <h4 class="text-end py-3">Booking Secure</h4>
+                    <div class="summary">
+                        <p>I designed and developed this booking website for my Capstone Project, which happens to be my first full-stack project. Through this project, I was able to enhance my design thinking and time management skills. It really helped me grow as a developer</p>
+                    </div>
+                    <div class="links d-flex gap-2 py-2 ">
+                        <Icon icon="iconoir:github" class="icon" color="#f04" />
+                        <Icon icon="mdi:link-variant" class="icon" color="#f04" />
+                    </div>
+                </div>
+            </div>
+            <div class="projects mx-auto justify-content-center">
+                <img class="d-lg-flex d-block justify-content-end" src="../assets/booking.png" alt="" data-aos="fade-right">
+                <div class="project-content d-flex flex-column align-items-end" data-aos="fade-left">
                     <h4 class="text-end py-3">Booking Secure</h4>
                     <div class="summary">
                         <p>I designed and developed this booking website for my Capstone Project, which happens to be my first full-stack project. Through this project, I was able to enhance my design thinking and time management skills. It really helped me grow as a developer</p>
@@ -53,6 +79,8 @@ p{
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     width: 75vw;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .summary {
@@ -62,7 +90,7 @@ p{
     box-shadow: 2px 2px 3px #ccc;
 }
 .project-content {
-    grid-column: 7 / 14;
+    grid-column: 7 / 15;
 }
 
 img {
@@ -71,8 +99,21 @@ img {
     width: 100%;
     height: 100%;
 }
+.project-content-left {
+    grid-column: 1 / 9;
+}
+
+.img-right {
+    box-shadow: 2px 2px 3px #ccc;
+    grid-column: 8 / 15;
+    width: 100%;
+    height: 100%;
+}
 
 img, .project-content {
+    grid-row: 1 / 2;
+}
+.img-right, .project-content-left {
     grid-row: 1 / 2;
 }
 
@@ -83,6 +124,9 @@ img, .project-content {
 @media screen and (max-width: 1456px) and (min-width: 1024px) {
     .project-content {
     grid-column: 6 / 15;
+    }   
+    .project-content-left {
+    grid-column: 1 / 10;
     }
     img {
     grid-column: 1 / 9;
@@ -117,7 +161,7 @@ img, .project-content {
         position: absolute;
         z-index: -1; /* Put the image behind the content */
     }
-    .project-content {
+    .project-content, .project-content-left {
         position: relative;
         z-index: 2; /* Make sure the content is on top of the layer */
     }

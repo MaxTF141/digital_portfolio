@@ -1,59 +1,59 @@
 <template>
-    <section id="skills" class="p-md-5 p-2 py-5">
+    <section id="skills" class="p-md-5 p-2 py-5"  data-aos="fade-up">
         <h1>Skills And Tools </h1>
         <h4>Below is the skills and tools I use to bring my ideas to life.</h4>
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
-                    <div class="skills">
-                        <Icon icon="fontisto:mysql" class="icon" color="white" />
+                    <div class="skills" data-aos="fade-up">
+                        <Icon icon="fontisto:mysql" class="icon" color="white"/>
                         <p>MySql</p>
                     </div>
                 </div>
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
-                    <div class="skills">
+                    <div class="skills" data-aos="fade-up">
                         <Icon icon="bi:github" class="icon" color="white" />
                         <p>Github</p>
                     </div>
                 </div>
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
-                    <div class="skills">
+                    <div class="skills" data-aos="fade-up">
                         <Icon icon="icomoon-free:html-five" class="icon" color="white" />
                         <p>HTML5</p>
                     </div>
                 </div>
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
-                    <div class="skills">
+                    <div class="skills" data-aos="fade-up">
                         <Icon icon="akar-icons:javascript-fill" class="icon" color="white" />
                         <p>Javascript</p>
                     </div>
                 </div>
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
-                    <div class="skills">
+                    <div class="skills" data-aos="fade-up">
                         <Icon icon="uiw:css3" class="icon" color="white" />
                         <p>CSS3</p>
                     </div>
                 </div>
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
-                    <div class="skills">
+                    <div class="skills" data-aos="fade-up">
                         <Icon icon="fa6-brands:bootstrap" class="icon" color="white" />
                         <p>Bootstrap</p>
                     </div>
                 </div>
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
-                    <div class="skills">
+                    <div class="skills" data-aos="fade-up">
                         <Icon icon="fa-brands:node-js" class="icon" color="white" />
                         <p>Node.js</p>
                     </div>
                 </div>
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
-                    <div class="skills">
+                    <div class="skills" data-aos="fade-up">
                         <Icon icon="akar-icons:vue-fill" class="icon" color="white" />
                         <p>Vue.js</p>
                     </div>
                 </div>
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
-                    <div class="skills">
+                    <div class="skills" data-aos="fade-up">
                         <Icon icon="mdi:vs-code" class="icon" color="white" />
                         <p>VS Code</p>
                     </div>

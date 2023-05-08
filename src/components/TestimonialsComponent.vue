@@ -5,11 +5,14 @@
             <h4>What co-workers and lectures say about me.</h4>
             <div class="row">
                 <div class="col-12">
-                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div id="carouselExampleCaptions" class="carousel slide">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -116,7 +119,58 @@ import { Icon } from '@iconify/vue';
 export default {
 	components: {
 		Icon
-	},
+	},  
+    data() {
+        return {
+            carouselActive: [
+                {
+                    id: 1,
+                    name: "Brandon",
+                    testimonial: "Maxwill is very committed in his work. He loves learning. An incredible problem solver. His very discipline worker. Always willing to assist those in need. I enjoyed having Maxwill as a fellow developer.",
+                    title: "Colleague",
+                    image: "../assets/Brandon.png"
+                }
+            ],
+            carousel: [
+                {
+                    id: 2,
+                    name: "Timmothy",
+                    testimonial: "Maxwill is a guy who becomes very passionate towards something when he becomes interested in it. He is very friendly and open to help anyone that has difficulty with any topic. He shows amazing creativity and problem-solving skills already. I recommend him to any company.",
+                    title: "Colleague",
+                    image: "../assets/Timmothy.png"
+                },
+                {
+                    id: 3,
+                    name: "Joel",
+                    testimonial: "Maxwill is a very creative, goal-getter, and well-behaved student. He does enjoy working with his classmates and works well on his project. He has gained knowledge of web development, including Bootstrap 5. I am very delighted to see him build more awesome projects, and most importantly, companies will love to hire such a developer.",
+                    title: "Lecturer",
+                    image: "../assets/Joel.png"
+                },
+                {
+                    id: 4,
+                    name: "Deno",
+                    testimonial: "Maxwill is a hardworking, results orientated team player. He has a keen eye for detail and always does the utmost to achieve a goal. I respect and admire this approach to problem solving as he has shown it's useful for technical as well as everyday problems. He's an inexpensive asset to any company out there looking to hire!",
+                    title: "Colleague",
+                    image: "../assets/Deno.png"
+                },
+                {
+                    id: 5,
+                    name: "Reece",
+                    testimonial: "Maxwill is an exceptionally hard worker and always making time to assist anyone who is in need. Also goes the extra-mile when doing anything that has to be done. He is also very confident in his capabilities and never fails to get the Job done.",
+                    title: "Colleague",
+                    image: "../assets/Reece.png"
+                },
+                {
+                    id: 6,
+                    name: "Javier",
+                    testimonial: "Maxwill seems to be very passionate in web development because he puts in 100% in every project does. He is always willing to help and goes the extra mile for students who are struggling on their projects.",
+                    title: "Colleague",
+                    image: "../assets/Javier.png"
+                },
+ 
+            ]
+        }
+    }
 }
 
 </script>
