@@ -3,22 +3,16 @@
         <h1>Get in touch with me</h1>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6">
+                <div class="col-3">
                     <div class="form p-4">          
                         <h4>Send me a message</h4>
                         <form action="https://formspree.io/f/xlevokwe" method="post">
                             <!-- 2 column grid layout with text inputs for the first and last names -->
                             <div class="row mb-4">
-                                <div class="col">
+                                <div class="col-12">
                                     <div class="form-outline">
                                         <input type="text" id="form3Example1" class="form-control" name="firstname"
                                             placeholder="First Name" required />
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-outline">
-                                        <input type="text" id="form3Example2" class="form-control" name="surname"
-                                            placeholder="Last Name" required />
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +60,9 @@ h4 {
   font-size: 20px;
 }
 .form {
-    background-color: #ff0044;
-    border-radius: 20px;
-}
+    /* background-color: #ff0044; */
+    /* border-radius: 20px; */
+    box-shadow: -1px 1px 12px -1px rgba(0,0,0,0.44);
+-webkit-box-shadow: -1px 1px 12px -6px rgba(0,0,0,0.44);
+-moz-box-shadow: -1px 1px 12px -1px rgba(0,0,0,0.44);}
 </style>
