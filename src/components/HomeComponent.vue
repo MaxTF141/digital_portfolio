@@ -2,7 +2,7 @@
   <section id="home" class="d-flex justify-content-center align-items-center flex-column">
     <div class="profile m-3">
       <h1 class="text-center">hi! I'm a <span>Web Developer</span></h1>
-      <h3>Pushing the boundaries of my potential.I also build stuff.</h3>
+      <h3 class="text-center">Pushing the boundaries of my potential.I also build stuff.</h3>
       <div class="profile-img d-flex justify-content-center">
         <img src="https://i.postimg.cc/VvyNdJTL/Group-18.png" alt="">
       </div>

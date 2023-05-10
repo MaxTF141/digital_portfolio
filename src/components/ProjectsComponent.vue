@@ -186,7 +186,6 @@ img, .project-content {
     .icon {
     font-size: 4rem;
     }
-
 }
 
 </style>

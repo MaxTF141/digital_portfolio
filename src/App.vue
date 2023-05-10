@@ -6,6 +6,7 @@
   <Skills />
   <Projects />
   <Testimonials />
+  <Contact />
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import Resume from '@/components/ResumeComponent.vue'
 import Skills from '@/components/SkillsComponent.vue'
 import Testimonials from '@/components/TestimonialsComponent.vue'
 import Projects from '@/components/ProjectsComponent.vue'
+import Contact from '@/components/ContactComponent.vue'
 
 export default {
   components: {
@@ -25,7 +27,8 @@ export default {
     Resume,
     Skills,
     Testimonials,
-    Projects
+    Projects,
+    Contact
   }
 }
 </script>
