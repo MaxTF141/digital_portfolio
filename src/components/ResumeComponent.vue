@@ -136,6 +136,7 @@ h1 {
   font-family: 'Chivo Mono', monospace;
   color: #000000;
   font-size: 20px;
+  font-weight: 700;
 }
 #resume h5 {
   font-family: 'Chivo Mono', monospace;
