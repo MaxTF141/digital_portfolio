@@ -27,18 +27,12 @@
                         <h4>Send me a message</h4>
                         <form action="https://formspree.io/f/xlevokwe" method="post">
                             <div class="row mb-4">
-                                <div class="col">
+                                <div class="col-12">
                                     <div class="form-outline">
                                         <in
                                         
                                         put type="text" id="form3Example1" class="form-control" name="firstname"
                                             placeholder="First Name" required />
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="form-outline">
-                                        <input type="text" id="form3Example2" class="form-control" name="surname"
-                                            placeholder="Last Name" required />
                                     </div>
                                 </div>
                             </div>
