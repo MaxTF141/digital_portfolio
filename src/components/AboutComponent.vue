@@ -24,6 +24,13 @@ export default {
 }
 </script>
 <style scoped>
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .devices-img img{
   width: 18rem;
 }
@@ -33,6 +40,8 @@ export default {
 
 #about {
   background-color: #FF0044;
+  overflow-x: hidden;
+
 }
 .about-me-text {
   width: 100vw;

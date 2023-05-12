@@ -81,6 +81,7 @@ export default {
 
 #skills {
     background-color: #ff0044;
+    overflow-x: hidden;
 }
 h1 {
   font-family: 'Ubuntu Mono', monospace;

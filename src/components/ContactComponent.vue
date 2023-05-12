@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="">
+    <section id="contact" class="p-md-5 p-1 py-5    ">
         <h1>Get in touch</h1>
         <div class="container-fluid">
             <div class="row">
@@ -12,7 +12,7 @@
                     <div class="icon-container d-flex align-items-center gap-4">
                         <Icon class="contact-icons" icon="ic:baseline-phone-android" color="#f04" /> 
                         <p class="mb-0">+27 67 274 6346</p>               
-                    </div>
+                    </div>  
                     <div class="icon-container d-flex align-items-center gap-4">
                         <a href="https://www.linkedin.com/in/maxwill-isaacs-88a1a2212/" target="blank"><Icon class="contact-icons" icon="bi:linkedin" color="#f04" /></a> 
                         <p class="mb-0">My LinkedIn</p>
@@ -22,17 +22,21 @@
                         <p class="mb-0">Kuils River, Cape Town</p>               
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 mt-5 pt-0">
                     <div class="form p-4">          
                         <h4>Send me a message</h4>
                         <form action="https://formspree.io/f/xlevokwe" method="post">
                             <div class="row mb-4">
-                                <div class="col-12">
+                                <div class="col-12 col-lg-6 mb-lg   -0 mb-4">
                                     <div class="form-outline">
-                                        <in
-                                        
-                                        put type="text" id="form3Example1" class="form-control" name="firstname"
+                                        <input type="text" id="form3Example1" class="form-control" name="firstname"
                                             placeholder="First Name" required />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="form-outline">
+                                        <input type="text" id="form3Example1" class="form-control" name="lastname"
+                                            placeholder="Last name" required />
                                     </div>
                                 </div>
                             </div>
@@ -61,6 +65,9 @@ export default {
 }
 </script>
 <style>
+/* body {
+    overflow-x: hidden;
+} */
 #contact {
     min-height: fit-content;
     position: relative;
@@ -100,6 +107,11 @@ h4 {
 @media screen and (max-width: 1024px) {
     .form {
         position: static;
+    }
+    h1 {
+        font-family: 'Ubuntu Mono', monospace;
+        color: #e0e0e0;
+        font-size: 3em;
     }
 }
 </style>

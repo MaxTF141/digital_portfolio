@@ -48,6 +48,16 @@ export default {
 }
 </script>
 <style scoped>
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#resume {
+    overflow-x: hidden;
+}
 .timeline {
     position: relative;
     max-width: 1200px;

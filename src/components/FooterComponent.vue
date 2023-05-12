@@ -1,7 +1,7 @@
 <template>
     <section id="footer"  class="pt-md-5">
         <div class="row pt-md-3">
-            <div class="col-6 d-flex flex-column align-items-center gap-4">
+            <div class="col-md-6 col-12 d-flex flex-column align-items-center gap-4">
                 <img src="https://i.postimg.cc/qqCFtr2j/maxwill-1-3-edit-removebg-preview-1.png" alt="">
                 <div class="contact-icons d-flex flex-row gap-2">
                     <!-- <a href=""><Icon icon="bi:instagram" color="#f04" /></a> -->
@@ -9,7 +9,7 @@
                     <a href="https://www.linkedin.com/in/maxwill-isaacs-88a1a2212/" target="blank"><Icon icon="bi:linkedin" color="#fff" /></a>
                 </div>
             </div>
-            <div class="col-6 d-flex flex-column align-items-center">
+            <div class="col-md-6 col-12 d-flex flex-column align-items-center">
                 <h4>Quick links</h4>
                 <ul>
                     <li><a href="#about">ABOUT</a></li>

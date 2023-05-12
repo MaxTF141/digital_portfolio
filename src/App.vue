@@ -36,6 +36,16 @@ export default {
 }
 </script>
 <style>
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200&family=Ubuntu+Mono&display=swap');
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

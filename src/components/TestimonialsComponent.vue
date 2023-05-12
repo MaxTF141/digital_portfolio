@@ -120,6 +120,7 @@ export default {
 <style scoped>
 #testimonials {
     background-color: #FF0044;
+    overflow-x: hidden;
 }
 h1 {
   font-family: 'Ubuntu Mono', monospace;
@@ -141,7 +142,6 @@ h4 {
     grid-row: 2 / 7;
 }
 img {
-    /* width: 100%; */
     height: 100%;
     grid-row: 1 / 7;
     grid-column: 9 / 11;
@@ -154,31 +154,7 @@ img {
     height: fit-content;
     background-color: #F4E9EC;
 }
-/* .test {
-    width: 80vw;
-    height: 60vh;
-    background-color: #ffffff;
-    position: relative;
-} 
-.test1 {
-    position: absolute;
-    height: 75%;
-    width: 100%;
-    background-color: #F4E9EC;
-}
-.testimonial-img {
-    position: absolute;
-    height: 110%;
-    bottom: 0;
-    right: 0;
-}
-.testimonial {
-    left: 10%;
-    width: 70%;
-    height: fit-content;
-    z-index: 1;
-    background-color: #ff0044;
-} */
+
 .icon {
     padding: 0px;
     font-size: 2rem; 
@@ -204,6 +180,16 @@ p {
     }
     img {
         grid-column: 8 / 10;
+    }
+    h1 {
+        font-family: 'Ubuntu Mono', monospace;
+        color: #e0e0e0;
+        font-size: 3em;
+    }
+    h4 {
+        font-family: 'Chivo Mono', monospace;
+        color: #000000;
+        font-size: 20px;
     }
 }
 </style>
