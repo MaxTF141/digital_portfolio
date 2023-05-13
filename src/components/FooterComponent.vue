@@ -21,6 +21,10 @@
                 </ul>
             </div>
         </div>
+        <hr class="mx-auto">
+        <div class="copyright p-3">
+            <p class="text-center">2023 &copy; Copyright Maxwill Isaacs</p>
+        </div>
     </section>
 </template>
 <script>
@@ -46,6 +50,13 @@ li {
 }
 a{
     text-decoration: none;
+    color: #ffffff;
+}
+hr {
+    width: 40%;
+}
+p{
+    font-size: 1rem;
     color: #ffffff;
 }
 </style>

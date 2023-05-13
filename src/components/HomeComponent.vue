@@ -1,7 +1,7 @@
 <template>
   <section id="home" class="d-flex justify-content-center align-items-center flex-column">
     <div class="profile m-3">
-      <h1 class="text-center">hi! I'm a <span>Web Developer</span></h1>
+      <h1 class="text-center">hi! I'm a <developer class="d-lg-inline-block"></developer></h1>
       <h3 class="text-center">Pushing the boundaries of my potential.I also build stuff.</h3>
       <div class="profile-img d-flex justify-content-center">
         <img src="https://i.postimg.cc/4dwv8T35/Group-1-1.png" alt="">
@@ -10,8 +10,11 @@
   </section>
 </template>
 <script>
+import developer from '@/components/AnimationComponent.vue'
 export default {
-    
+    components: {
+      developer
+    }
 }
 </script>
 <style scoped>

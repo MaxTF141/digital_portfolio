@@ -83,6 +83,7 @@ export default {
     background-color: #ff0044;
     overflow-x: hidden;
 }
+
 h1 {
   font-family: 'Ubuntu Mono', monospace;
   color: #e0e0e0;
@@ -109,11 +110,13 @@ p {
     padding-bottom: 0px;
     font-size: 8em; 
 }
+
 h4 {
   font-family: 'Chivo Mono', monospace;
   color: #000000;
   font-size: 20px;
 }
+
 
 @media screen and (max-width: 1024px) {
     h1{

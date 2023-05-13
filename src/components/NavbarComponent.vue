@@ -42,7 +42,7 @@ export default {
   background-color: #ffffffd0;
   }
   img {
-    width: 6rem;
+    width: 9rem;
   }
   a{
     font-family: 'Ubuntu Mono', monospace;
@@ -50,5 +50,10 @@ export default {
   }
   a:hover {
     color: #ff0044;
+    font-size: 2rem;
+    animation: pop 0.3s 2;
+    padding: 0;
   }
+
+  
 </style>

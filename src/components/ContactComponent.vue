@@ -3,7 +3,7 @@
         <h1>Get in touch</h1>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 col-12 d-flex flex-column gap-4">
+                <div class="col-md-6 col-12 d-flex flex-column gap-4 ps-lg-5 ps-1">
                     <h4>Feel free to contact me in any way with the provided information below.</h4>
                     <div class="icon-container d-flex align-items-center gap-4">
                         <Icon class="contact-icons" icon="ic:outline-alternate-email" color="#f04" /> 
@@ -27,7 +27,7 @@
                         <h4>Send me a message</h4>
                         <form action="https://formspree.io/f/xlevokwe" method="post">
                             <div class="row mb-4">
-                                <div class="col-12 col-lg-6 mb-lg   -0 mb-4">
+                                <div class="col-12 col-lg-6 mb-lg-0 mb-4">
                                     <div class="form-outline">
                                         <input type="text" id="form3Example1" class="form-control" name="firstname"
                                             placeholder="First Name" required />
@@ -100,9 +100,11 @@ h4 {
     -webkit-box-shadow: 0px 0px 28px -14px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 28px -14px rgba(0,0,0,0.5);
 }
+
 .contact-icons {
     font-size: 2rem; 
 }
+
 
 @media screen and (max-width: 1024px) {
     .form {

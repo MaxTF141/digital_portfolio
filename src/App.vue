@@ -36,6 +36,7 @@ export default {
 }
 </script>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200&family=Ubuntu+Mono&display=swap');
 *,
 *::before,
 *::after {
@@ -46,25 +47,36 @@ export default {
 html {
   overflow-x: hidden;
 }
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200&family=Ubuntu+Mono&display=swap');
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+.skills:hover, .icon:hover, .contact-icons:hover {
+    animation: rotate-vertical 1.1s ease-out;
 }
 
-nav {
-  padding: 30px;
+button:hover {
+    animation: pop 0.3s 2;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+
+@keyframes rotate-vertical {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-} */
+@keyframes pop {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
 </style>
