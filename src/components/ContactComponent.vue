@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 mt-5 pt-0">
-                    <div class="form p-4">          
+                    <div class="form p-4" data-aos="fade-left">          
                         <h4>Send me a message</h4>
                         <form action="https://formspree.io/f/xlevokwe" method="post">
                             <div class="row mb-4">
@@ -69,7 +69,7 @@ export default {
     overflow-x: hidden;
 } */
 #contact {
-    min-height: fit-content;
+    min-height: 60vh;
     position: relative;
     padding: 60px;
     padding-bottom: 80px

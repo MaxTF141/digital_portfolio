@@ -5,15 +5,15 @@
             <div class="timeline-badge right">
                 <div class="content px-2" data-aos="fade-left">
                     <h4 class="">KUILS RIVER TECHNICAL HIGH SCHOOL</h4>
-                    <p class="">I graduated from high school with a diploma.</p>
+                    <p class="p-lg-3 pb-1">I graduated from high school with a diploma.</p>
                     <h5 class="">2015 - 2019</h5>
                 </div>
             </div>
             <div class="timeline-badge left" data-aos="fade-right">
                 <div class="content px-2">
                     <h4 class="">DE JAGERS UITRUSTERS</h4>
-                    <p class="">De Jagers is a retail store. I worked there for about two years as a temporary worker since I finished high school.</p>
-                    <h5 class="">2015 - 2019</h5>
+                    <p class="p-lg-3 pb-1">De Jagers is a retail store. I worked there for about two years as a temporary worker since I finished high school.</p>
+                    <h5 class="">2020 - 2022</h5>
                 </div>
             </div>
         </div>
@@ -21,22 +21,22 @@
             <div class="timeline-badge right" data-aos="fade-left" data-aos-easing="ease-in-out">
                 <div class="content px-2">
                     <h4 class="">iCollege (Bellville Campus)</h4>
-                    <p class="">I attended this college after I took a gap year after school. I studied IT Tech Support NQF4 during that year.</p>
-                    <h5 class="">2015 - 2019</h5>
+                    <p class="p-lg-3 pb-1">I attended this college after I took a gap year after school. I studied IT Tech Support NQF4 during that year.</p>
+                    <h5 class="">Feb 2021 - Dec 2021</h5>
                 </div>
             </div>
             <div class="timeline-badge left" data-aos="fade-right">
                 <div class="content px-2">
-                    <h4 class="">LIFE CHOICES CODING </h4>
-                    <p class="">So far it's been a great experience here at Life Choices. I began to love coding more and more. And I have learnt a lot and It's just not coding.I love how they implement everything that you'll need after you done with the Course</p>
-                    <h5 class="">2015 - 2019</h5>
+                    <h4 class="">LIFE CHOICES ACADEMY </h4>
+                    <p class="p-lg-3 pb-1">Attended Life Choices' six months coding course. It's been a great experience. I began to love coding more and more. And I have learnt a lot and It's just not coding. Including Life Skills, Personal Development and Work Ethics Training.I love how they implement everything that you'll need even after you done with the Course.</p>
+                    <h5 class="">Sept 2022 - Mar 2023</h5>
                 </div>
             </div>
             <div class="timeline-badge right" data-aos="fade-left">
                 <div class="content px-2">
-                    <h4 class="">LIFE CHOICES CODING </h4>
-                    <p class="">So far it's been a great experience here at Life Choices. I began to love coding more and more. And I have learnt a lot and It's just not coding.I love how they implement everything that you'll need after you done with the Course</p>
-                    <h5 class="">2015 - 2019</h5>
+                    <h4 class="">Life Choices Studio</h4>
+                    <p class="p-lg-3 pb-1">After finishing my six months coding course I began with an internal internship. I've been going through a learning journey. It consists of UI/Ux, Wordpress, Php and Seo.</p>
+                    <h5 class="">Apr 2023 - Present </h5>
                 </div>
             </div>
         </div>
