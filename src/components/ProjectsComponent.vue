@@ -113,10 +113,12 @@ img {
     box-shadow: 2px 2px 3px #ccc;
     width: 100%;
     height: 100%;
+    filter: blur(2px);
 }
 
 img:hover {
     opacity: 1 !important;
+    filter: blur(0px);
 }
 
 .overlay-img::before, .overlay-img-right::before {
@@ -129,6 +131,7 @@ img:hover {
   opacity: 0.9;
   background-color: black;
   z-index: 1;
+  filter: blur(1px);
 }
 
 .summary {
