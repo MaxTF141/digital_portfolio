@@ -192,7 +192,7 @@ img, .project-content {
         background-color: #000000a8; 
     }
 
-    img {
+    .overlay-img, .overlay-img-right {
         display: block;
         width: auto;
         height: 100%;
@@ -201,6 +201,13 @@ img, .project-content {
         position: absolute;
         z-index: -1;
     }
+    .overlay-img::before, .overlay-img-right::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -2;
+    filter: blur(0px);
+    }
     .project-content, .project-content-left {
         position: relative;
         z-index: 2;
@@ -208,6 +215,7 @@ img, .project-content {
     .summary {
         background-color: #00000000;
         box-shadow: none;
+        padding: 10px;
     }
     img {
         display: none;
@@ -219,12 +227,14 @@ img, .project-content {
     h4{
         text-align: center;
         color: #ff0044;
+        padding: 10px !important;
     }
     p {
         color: #ffff;
     }
     .icon {
-    font-size: 4rem;
+        font-size: 3rem;
+        padding: 10px !important;
     }
 }
 

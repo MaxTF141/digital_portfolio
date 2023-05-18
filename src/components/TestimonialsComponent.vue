@@ -192,4 +192,23 @@ p {
         font-size: 20px;
     }
 }
+@media screen and (max-width: 768px ) {
+    .testimonial {
+        grid-column: 1 / 13;
+        grid-row: 3 / 7;
+        margin-top: auto;
+        position: relative;
+        z-index: 3;
+    }
+    img {
+        grid-column: 4 / 10;
+        height: 80% ;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        margin-bottom: auto;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+}
 </style>

@@ -47,6 +47,9 @@ export default {
 html {
   overflow-x: hidden;
 }
+body {
+  overflow-x: hidden;
+}
 
 .skills:hover, .icon:hover, .contact-icons:hover {
     animation: rotate-vertical 1.1s ease-out;
