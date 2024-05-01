@@ -46,6 +46,8 @@
                         <p>Node.js</p>
                     </div>
                 </div>
+            </div>
+            <div class="row justify-content-center">
                 <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
                     <div class="skills" data-aos="fade-up">
                         <Icon icon="akar-icons:vue-fill" class="icon" color="white" />
@@ -56,6 +58,30 @@
                     <div class="skills" data-aos="fade-up">
                         <Icon icon="mdi:vs-code" class="icon" color="white" />
                         <p>VS Code</p>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
+                    <div class="skills" data-aos="fade-up">
+                        <Icon icon="fa6-brands:golang"  class="icon" color="white" />
+                        <p>Go Lang</p>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
+                    <div class="skills" data-aos="fade-up">
+                        <Icon icon="simple-icons:docker" class="icon" color="white" />
+                        <p>Docker</p>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
+                    <div class="skills" data-aos="fade-up">
+                        <Icon icon="simple-icons:postgresql" class="icon" color="white" />
+                        <p>PostgreSQL</p>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-4 mx-0 mx-lg-4 mx-xl-0 d-flex justify-content-center">
+                    <div class="skills" data-aos="fade-up">
+                        <Icon icon="teenyicons:typescript-outline" class="icon" color="white" />
+                        <p>TypeScript</p>
                     </div>
                 </div>
             </div>

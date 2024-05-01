@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-lg bg-body-light fixed-top mx-auto mt-2">
   <div class="container-fluid d-flex justify-content-space-between">
-    <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/3x9LXK3n/maxwill-1edit.png" alt=""></a>
+    <a class="navbar-brand" href="#"><img src="https://i.ibb.co/8m5JQYn/logo3-resize.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,7 +42,7 @@ export default {
   background-color: #ffffffd0;
   }
   img {
-    width: 9rem;
+    width: 4rem;
   }
   a{
     font-family: 'Ubuntu Mono', monospace;

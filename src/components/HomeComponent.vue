@@ -4,7 +4,7 @@
       <h1 class="text-center">hi! I'm a <developer class="d-lg-inline-block"></developer></h1>
       <h3 class="text-center">Pushing the boundaries of my potential.I also build stuff.</h3>
       <div class="profile-img d-flex justify-content-center">
-        <img src="https://i.postimg.cc/4dwv8T35/Group-1-1.png" alt="">
+        <img src="https://i.ibb.co/W5rZzjk/Max-Colour-Compressed.png" alt="">
       </div>
     </div>
   </section>
@@ -28,7 +28,7 @@ export default {
 }
 
 img {
-  width: 9rem;
+  width: 11rem;
 }
 h1{
   font-family: 'Chivo Mono', monospace;

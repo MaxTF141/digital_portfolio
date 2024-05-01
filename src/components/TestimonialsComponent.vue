@@ -70,7 +70,7 @@ export default {
                     name: "Brandon",
                     testimonial: "Maxwill is very committed in his work. He loves learning. An incredible problem solver. His very discipline worker. Always willing to assist those in need. I enjoyed having Maxwill as a fellow developer.",
                     title: "Colleague",
-                    image: "https://i.postimg.cc/nLgnhNtS/Brandon.png",
+                    image: "https://i.ibb.co/r3zC6dJ/Brando.png",
                     class: 'active'
                 }
             ],
@@ -80,35 +80,35 @@ export default {
                     name: "Timmothy",
                     testimonial: "Maxwill is a guy who becomes very passionate towards something when he becomes interested in it. He is very friendly and open to help anyone that has difficulty with any topic. He shows amazing creativity and problem-solving skills already. I recommend him to any company.",
                     title: "Colleague",
-                    image: "https://i.postimg.cc/zGfNSqzP/Tim.png"
+                    image: "https://i.ibb.co/T2JMNpZ/Tim.png"
                 },
                 {
                     id: 3,
                     name: "Joel",
                     testimonial: "Maxwill is a very creative, goal-getter, and well-behaved student. He does enjoy working with his classmates and works well on his project. He has gained knowledge of web development, including Bootstrap 5. I am very delighted to see him build more awesome projects, and most importantly, companies will love to hire such a developer.",
                     title: "Lecturer",
-                    image: "https://i.postimg.cc/N05gYBZr/Joel.png"
+                    image: "https://i.ibb.co/FDLssr2/Joel.png"
                 },
                 {
                     id: 4,
                     name: "Deno",
                     testimonial: "Maxwill is a hardworking, results orientated team player. He has a keen eye for detail and always does the utmost to achieve a goal. I respect and admire this approach to problem solving as he has shown it's useful for technical as well as everyday problems. He's an inexpensive asset to any company out there looking to hire!",
                     title: "Colleague",
-                    image: "https://i.postimg.cc/d1Cwknss/Deno.png"
+                    image: "https://i.ibb.co/sKYKYqh/Deno.png"
                 },
                 {
                     id: 5,
                     name: "Reece",
                     testimonial: "Maxwill is an exceptionally hard worker and always making time to assist anyone who is in need. Also goes the extra-mile when doing anything that has to be done. He is also very confident in his capabilities and never fails to get the Job done.",
                     title: "Colleague",
-                    image: "https://i.postimg.cc/8cVDhWch/Reece.png"
+                    image: "https://i.ibb.co/ZxghSch/Reece.png"
                 },
                 {
                     id: 6,
                     name: "Javier",
                     testimonial: "Maxwill seems to be very passionate in web development because he puts in 100% in every project does. He is always willing to help and goes the extra mile for students who are struggling on their projects.",
                     title: "Colleague",
-                    image: "https://i.postimg.cc/C5H0J1n9/Javier.png"
+                    image: "https://i.ibb.co/BrL7rzs/Javier.png"
                 },
  
             ]

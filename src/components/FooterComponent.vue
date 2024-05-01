@@ -2,7 +2,7 @@
     <section id="footer"  class="pt-md-5">
         <div class="row pt-md-3">
             <div class="col-md-6 col-12 d-flex flex-column align-items-center gap-4">
-                <a href="#"><img src="https://i.postimg.cc/qqCFtr2j/maxwill-1-3-edit-removebg-preview-1.png" alt=""></a>
+                <a href="#"><img src="https://i.ibb.co/ZJCkhqM/logo.png" alt=""></a>
                 <div class="contact-icons d-flex flex-row gap-2">
                     <a href="https://github.com/MaxTF141" target="blank"><Icon icon="mdi:github" color="#fff" /></a>
                     <a href="https://www.linkedin.com/in/maxwill-isaacs-88a1a2212/" target="blank"><Icon icon="bi:linkedin" color="#fff" /></a>

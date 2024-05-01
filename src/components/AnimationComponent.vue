@@ -1,8 +1,13 @@
 <template>
     <div class="name">
+      <div class="letter">S</div>
+      <div class="letter">O</div>
+      <div class="letter">F</div>
+      <div class="letter">T</div>
       <div class="letter">W</div>
-      <div class="letter">E</div>
-      <div class="letter pe-4">B</div>
+      <div class="letter">A</div>
+      <div class="letter">R</div>
+      <div class="letter pe-4">E</div>
       <div class="letter">D</div>
       <div class="letter">E</div>
       <div class="letter">V</div>

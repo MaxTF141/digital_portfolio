@@ -1,7 +1,7 @@
 <template>
     <section id="showcase">
         <div class="devices-img d-flex justify-content-center"> 
-          <img src="https://i.postimg.cc/RZZvjtqk/Group-16-1-1.png" alt="">
+          <img src="https://i.ibb.co/f1ZmM8q/Frame-1-removebg-preview.png" alt="">
         </div>
     </section>
     <section id="about" class="d-flex justify-content-center align-items-center flex-column p-md-4 p-1">
@@ -32,11 +32,11 @@ export default {
   box-sizing: border-box;
 }
 .devices-img img{
-  width: 18rem;
+  width: 20rem;
 }
-.devices-img {
-  margin-bottom: -14px;
-}
+/* .devices-img {
+  margin-bottom: -10px;
+} */
 
 #about {
   background-color: #FF0044;

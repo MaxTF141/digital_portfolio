@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="timeline">
-            <div class="timeline-badge right" data-aos="fade-left" data-aos-easing="ease-in-out">
+            <div class="timeline-badge right" data-aos="fade-left">
                 <div class="content px-2">
                     <h4 class="">iCollege (Bellville Campus)</h4>
                     <p class="p-lg-3 pb-1">I attended this college after I took a gap year after school. I studied IT Tech Support NQF4 during that year.</p>
@@ -35,8 +35,15 @@
             <div class="timeline-badge right" data-aos="fade-left">
                 <div class="content px-2">
                     <h4 class="">Life Choices Studio</h4>
-                    <p class="p-lg-3 pb-1">After finishing my six months coding course I began with an internal internship. I've been going through a learning journey. It consists of UI/Ux, Wordpress, Php and Seo.</p>
-                    <h5 class="">Apr 2023 - Present </h5>
+                    <p class="p-lg-3 pb-1">After finishing my six-month coding course, I began an internal internship. I went through a learning journey that consisted of UI/UX, Wordpress, PHP, and SEO.</p>
+                    <h5 class="">Apr - Jul 2023</h5>
+                </div>
+            </div>
+            <div class="timeline-badge left" data-aos="fade-right">
+                <div class="content px-2">
+                    <h4 class="">IMQS Software</h4>
+                    <p class="p-lg-3 pb-1">I began my journey as an Intern software developer within IMQS, where I acquired proficiency in TypeScript, Go Lang, PostgreSQL, and Docker. Additionally, I gained hands-on experience with GitHub and contributed to projects managed through Jira boards.</p>
+                    <h5 class="">Aug 2023 - Present</h5>
                 </div>
             </div>
         </div>
